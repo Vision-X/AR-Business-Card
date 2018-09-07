@@ -9,9 +9,9 @@ class App extends Component {
     return (
           <Scene embedded arjs>
             <a-text value="Michael Marlow bruhhhhh"
-                    position="0 0 0.5"
+                    position="0 2 0"
                     color="black"
-                    >
+            >
             </a-text>
             {/*<!-- create your content here. just a box for now -->*/}
             <a-box position='0 0.5 0' material='color: blue, opacity: 0.5;'></a-box>
