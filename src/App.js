@@ -15,7 +15,13 @@ class App extends Component {
             >
             </a-text>
             {/*<!-- create your content here. just a box for now -->*/}
-            <a-box position='0 0.5 0' material='color: blue; opacity: 0.5;'></a-box>
+            <a-box position='0 0.5 0' material='color: blue; opacity: 0.5;'>
+              <a-text value="Michael Marlow bruhhhhh"
+                      position="0 0.7 0"
+                      rotation="90 0 0"
+                      color="black"
+              ></a-text>
+            </a-box>
             {/*<!-- define a camera which will move according to the marker position -->*/}
             <a-marker-camera preset='hiro'></a-marker-camera>
           </Scene>
