@@ -8,16 +8,17 @@ class App extends Component {
   render() {
     return (
           <Scene embedded arjs>
-            <a-text value="Michael Marlow bruhhhhh"
+            {/*<a-text value="Michael Marlow bruhhhhh"
                     position="-0.5 0.9 0"
                     rotation="-90 0 0"
                     color="black"
             >
-            </a-text>
+            </a-text>*/}
             <a-text value="Michael Marlow bruhhhhh"
-                    position="-0.5 1.0 0.1"
+                    position="-1 1.0 0"
                     rotation="-90 0 0"
                     color="white"
+                    geometry="primitive:plane"
             >
             </a-text>
             {/*<!-- create your content here. just a box for now -->*/}
