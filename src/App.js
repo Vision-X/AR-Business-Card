@@ -9,7 +9,8 @@ class App extends Component {
     return (
           <Scene embedded arjs>
             <a-text value="Michael Marlow bruhhhhh"
-                    position="0 2 0"
+                    position="0 1 1"
+                    rotation="90 0 0"
                     color="black"
             >
             </a-text>
