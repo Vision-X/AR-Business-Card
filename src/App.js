@@ -18,7 +18,6 @@ class App extends Component {
                     position="-1 1.0 0"
                     rotation="-90 0 0"
                     color="white"
-                    geometry="primitive:plane"
             >
             </a-text>
             {/*<!-- create your content here. just a box for now -->*/}
