@@ -35,4 +35,6 @@ This is a lightweight AR (Augmented Reality) implementation for use as my busine
 - [] Headshot photo?
 - [] AR assets
 - [] AR animations
+- [] AR marker creation
+- [] Marker area learning and training
 - [] Multi-browser and device testing!
