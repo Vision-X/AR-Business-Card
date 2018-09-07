@@ -14,8 +14,8 @@ This is a lightweight AR (Augmented Reality) implementation for use as my busine
 
 ## Objective checklist
 
-- [] Wipe down create-react-app
-- [] import a-frame and AR.js
+- [x] Wipe down create-react-app
+- [] install and import a-frame and AR.js
 - [] build basic App.js with AR grid for positioning
 - [] Add text elements for personal info
   - [] Name: Michael Marlow
