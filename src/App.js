@@ -31,6 +31,7 @@ class App extends Component {
                          from="red"
                          to="blue"
               >
+              </a-animation>
               <a-animation attribute="scale"
                            begin="2000"
                            to="0 0.5 0.5"
