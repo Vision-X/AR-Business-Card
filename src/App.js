@@ -13,6 +13,7 @@ class App extends Component {
                     rotation="-90 0 0"
                     color="black"
             >
+            </a-text>
             <a-text value="Michael Marlow bruhhhhh"
                     position="-0.5 1.0 0.1"
                     rotation="-90 0 0"
