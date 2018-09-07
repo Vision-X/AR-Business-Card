@@ -21,7 +21,7 @@ class App extends Component {
             >
             </a-text>
             {/*<!-- create your content here. just a box for now -->*/}
-            <a-entity geometry="primitive: box; depth=0.0 height=0.5 width=0.5"
+            <a-entity geometry="primitive: box; depth=1.0 height=1.0 width=1.0"
                       position='0 0.5 0'
                       material='color: blue; opacity: 0.5;'
 
@@ -34,15 +34,16 @@ class App extends Component {
               </a-animation>
               <a-animation attribute="scale"
                            begin="2000"
-                           to="0 0.5 0.5"
+                           to="1.0 1.0 1.0"
               >
               </a-animation>
               <a-text value="Michael Marlow bruhhhhh"
                       position="-1 1.0 0"
                       rotation="-90 0 0"
                       color="black"
-              ></a-text>
-          </a-entity>
+              >
+              </a-text>
+            </a-entity>
             {/*<!-- define a camera which will move according to the marker position -->*/}
             <a-marker-camera preset='hiro'></a-marker-camera>
           </Scene>
