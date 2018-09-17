@@ -37,12 +37,12 @@ class App extends Component {
                            to="1.0 1.0 1.0"
               >
               </a-animation>
-              <a-text value="Michael Marlow bruhhhhh"
+              {/*<a-text value="Michael Marlow bruhhhhh"
                       position="-1 1.0 0"
                       rotation="-90 0 0"
                       color="black"
               >
-              </a-text>
+              </a-text>*/}
             </a-entity>
             {/*<!-- define a camera which will move according to the marker position -->*/}
             <a-marker-camera preset='hiro'></a-marker-camera>
